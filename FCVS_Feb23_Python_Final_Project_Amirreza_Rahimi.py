@@ -8,10 +8,10 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 
 # IMDB key
-IMDB_USER_KEY = r'k_a1f14gqz'
+IMDB_USER_KEY = r'Your IMDB key'
 
 # Bot token
-updater = Updater("5944555163:AAEGw4QEbYAP5fhmqHFusYK-_ZOGRDbYKn4",
+updater = Updater("Your Bot Token",
 				use_context=True)
 
 # Start command
